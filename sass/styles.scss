@@ -1,2 +1,9 @@
-@import url(./utils/_vars.scss);
-@import url(./utils/_general.scss);
+
+@import "./utils/vars";
+@import "./utils/general";
+@import "./utils/main";
+@import "./utils/info";
+@import "./utils/about";
+@import "./utils/team";
+@import "./utils/about-clients";
+@import "./utils/backdrop.scss";
