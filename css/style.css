@@ -373,17 +373,17 @@ body {
   background-color: #fff;
 }
 
-.team__icon__massage {
+.team__icon-massage {
   fill: currentColor;
 }
 
-.team__link__list {
+.team__link-list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.team__link__svg {
+.team__link-svg {
   text-decoration: none;
   height: 44px;
   width: 44px;
@@ -395,8 +395,8 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0.1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
 }
 
-.team__link__svg:hover,
-.team__link__svg:focus {
+.team__link-svg:hover,
+.team__link-svg:focus {
   background-color: #2196f3;
   color: #fff;
 }
@@ -491,12 +491,12 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__link__list {
+.footer__link-list {
   display: flex;
   align-items: center;
 }
 
-.footer__link__svg {
+.footer__link-svg {
   fill: currentColor;
   color: #fff;
   text-decoration: none;
@@ -511,8 +511,8 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
 }
 
-.footer__link__svg:hover,
-.footer__link__svg:focus {
+.footer__link-svg:hover,
+.footer__link-svg:focus {
   background-color: #2196f3;
 }
 
@@ -528,7 +528,7 @@ body {
   margin-right: 70px;
 }
 
-.footer__link__svg:not(:last-child) {
+.footer__link-svg:not(:last-child) {
   margin-left: 10px;
 }
 
