@@ -381,6 +381,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .team__link-svg {
@@ -434,7 +435,7 @@ body {
   width: 170px;
   height: 92px;
   color: #afb1b8;
-  border: 2px solid #afb1b8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0.1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
 }
@@ -507,8 +508,11 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-left: 10px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+}
+
+.footer__link-svg:last-child {
+  margin-right: 10px;
 }
 
 .footer__link-svg:hover,
@@ -728,9 +732,6 @@ body {
 
 .modal__btn_:hover,
 .modal__btn_:focus {
-  color: #2196f3;
-  background-color: #fff;
-  border: 1px solid #2196F3;
   cursor: pointer;
 }
 
@@ -767,6 +768,8 @@ body {
 
 .check__lable {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .input__check {
@@ -776,14 +779,14 @@ body {
 
 .check-icon-off {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 8.38px;
+  top: 4px;
 }
 
 .check-icon-on {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 8.38px;
+  top: 4px;
   opacity: 0;
 }
 
@@ -827,6 +830,11 @@ body {
 .portfolio__content-items {
   flex-basis: calc((100% - 60px) / 3);
   text-decoration: none;
+}
+
+.portfolio__content-items:hover,
+.portfolio__content-items:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio__title {
@@ -918,6 +926,7 @@ body {
 
 .portfolio__link {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
+  display: block;
 }
 
 .portfolio__link:hover,
