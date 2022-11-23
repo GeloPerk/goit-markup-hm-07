@@ -664,6 +664,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding: 0;
 }
 
 .modal__lable {
@@ -674,6 +675,7 @@ body {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: #757575;
+  margin-bottom: 20px;
 }
 
 .input {
@@ -776,6 +778,7 @@ body {
 }
 
 .check__lable {
+  margin-top: 20px;
   position: relative;
   display: flex;
   justify-content: center;
